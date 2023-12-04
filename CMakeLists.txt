@@ -10,4 +10,5 @@ list(APPEND EXTRA_INCLUDES "${PROJECT_SOURCE_DIR}/Helpers")
 add_executable(Day1 day1.cpp Helpers/helper.cpp)
 add_executable(Day2 day2.cpp Helpers/helper.cpp)
 add_executable(Day3 day3.cpp Helpers/helper.cpp)
+add_executable(Day4 day4.cpp Helpers/helper.cpp)
 

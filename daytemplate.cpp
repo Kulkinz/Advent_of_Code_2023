@@ -4,6 +4,21 @@ using namespace std;
 #include <fstream>
 #include <string>
 #include <vector>
+#include <map>
+#include "Helpers/HelperFunctions.h"
+
+struct coord {
+  int x;
+  int y;
+
+  bool operator=(const coord &o) const {
+    return x == o.x && y == o.y;
+  }
+
+  bool operator<(const coord &o) const {
+    return x < o.x || (x == o.x && y < o.y);
+  }
+};
 
 int main() {
   cout << "Day 1" << endl;
