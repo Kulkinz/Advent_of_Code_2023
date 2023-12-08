@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.23)
 project(Advent_of_Code_2023)
 
-set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD 23)
 
 add_subdirectory(Helpers)
 list(APPEND EXTRA_LIBS Helpers)
@@ -12,4 +12,7 @@ add_executable(Day2 day2.cpp Helpers/helper.cpp)
 add_executable(Day3 day3.cpp Helpers/helper.cpp)
 add_executable(Day4 day4.cpp Helpers/helper.cpp)
 add_executable(Day5 day5.cpp Helpers/helper.cpp)
+add_executable(Day6 day6.cpp Helpers/helper.cpp)
+add_executable(Day7 day7.cpp Helpers/helper.cpp)
+add_executable(Day8 day8.cpp Helpers/helper.cpp)
 

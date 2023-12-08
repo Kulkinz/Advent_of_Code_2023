@@ -19,4 +19,11 @@ template<typename C> C get_intersection( C &a, C &b ) {
 
 bool uniqueCharacters(string str);
 
+template <typename T>
+const bool contains( std::vector<T>& Vec, const T& Element )
+{
+  if (std::find(Vec.begin(), Vec.end(), Element) != Vec.end())
+    return true;
 
+  return false;
+}
