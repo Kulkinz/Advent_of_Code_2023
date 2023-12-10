@@ -16,4 +16,5 @@ add_executable(Day6 day6.cpp Helpers/helper.cpp)
 add_executable(Day7 day7.cpp Helpers/helper.cpp)
 add_executable(Day8 day8.cpp Helpers/helper.cpp)
 add_executable(Day9 day9.cpp Helpers/helper.cpp)
+add_executable(Day10 day10.cpp Helpers/helper.cpp)
 
